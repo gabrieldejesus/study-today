@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>O que eu tenho que estudar hoje?</title>
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> <!-- Font -->
+
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div id="pergunta">
+                <h1>O que você está aprendendo?</h1>
+                <input type="text/css" id="question" placeholder="Exemplo: JavaScript">
+                <button onclick="start()" id="start">Começar</button>
+            </div>
+
+            <div id="tarefas">
+                <h1 id="assunto"></h1>
+                <div class="add">
+                    <input type="text" id="tarefa" placeholder="Digite sua tarefa..."/>
+                    <button onclick="add()">Adicionar</button>
+                </div>
+                <ul id="lista"></ul>
+            </div>
+            
+        </div>
+    </main>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
