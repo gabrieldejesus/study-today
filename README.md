@@ -1,5 +1,6 @@
 📚 Dedicated project to test what I'm learning with javascript.
 
+`Web preview`
 ![](web-preview.gif)
 
 ## Deployment in
