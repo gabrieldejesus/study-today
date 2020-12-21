@@ -45,7 +45,7 @@ or download the zip from the green button at the beginning of the repository
 
 ## 💻 Configuration for development
 
-To start the project you just need to run the index.html file
+To start the project you just need to run the ``index.html`` file
 
 ## 🗃 Release history
 
